@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /*!
 =========================================================
 * Argon Dashboard PRO React - v1.2.1
@@ -9,10 +10,9 @@
 * Coded by Creative Tim
 
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
+import React from 'react';
 import {
   Badge,
   Button,
@@ -34,8 +34,7 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
-// core components
-import SimpleHeader from 'components/Headers/SimpleHeader.js';
+import SimpleHeader from "components/Headers/SimpleHeader.js";
 
 function Tables() {
   return (

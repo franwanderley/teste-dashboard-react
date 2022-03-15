@@ -1,0 +1,28 @@
+{
+   "user": [
+      {
+         "id": 1,
+         "name": "wanderley",
+         "email": "wanderley3101@gmail.com",
+         "cargo": "desenvolvedor Front-End"
+      },
+      {
+         "id": 2,
+         "name": "Eduarda Landim",
+         "email": "eduarda.landim@gmail.com",
+         "cargo": "Design UX/UI"
+      },
+      {
+         "id": 3,
+         "name": "Maria do Socorro",
+         "email": "mariasocorro@gmail.com",
+         "cargo": "Product Owner"
+      },
+      {
+         "id": 4,
+         "name": "Anibal Neto",
+         "email": "anibal@gmail.com",
+         "cargo": "arquiteto de software"
+      }
+   ]
+}

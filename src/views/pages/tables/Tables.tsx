@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-key */
 /*!
-
 =========================================================
 * Argon Dashboard PRO React - v1.2.1
 =========================================================
@@ -10,11 +10,9 @@
 * Coded by Creative Tim
 
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
-// reactstrap components
+import React from 'react';
 import {
   Badge,
   Button,
@@ -36,7 +34,6 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
-// core components
 import SimpleHeader from "components/Headers/SimpleHeader.js";
 
 function Tables() {
@@ -779,7 +776,7 @@ function Tables() {
                       <PaginationLink
                         href="#pablo"
                         onClick={(e) => e.preventDefault()}
-                        tabIndex="-1"
+                        tabIndex={-1}
                       >
                         <i className="fas fa-angle-left" />
                         <span className="sr-only">Previous</span>

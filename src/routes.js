@@ -34,12 +34,13 @@ import ReactBSTables from "views/pages/tables/ReactBSTables.js";
 import Register from "views/pages/examples/Register.js";
 import RTLSupport from "views/pages/examples/RTLSupport.js";
 import Sortable from "views/pages/tables/Sortable.js";
-import Tables from "views/pages/tables/Tables.js";
+import Tables from "views/pages/tables/Tables";
 import Timeline from "views/pages/examples/Timeline.js";
 import Typography from "views/pages/components/Typography.js";
 import Validation from "views/pages/forms/Validation.js";
 import Vector from "views/pages/maps/Vector.js";
 import Widgets from "views/pages/Widgets.js";
+import { Challenge } from "views/pages/challenge";
 
 const routes = [
   {
@@ -282,6 +283,13 @@ const routes = [
     name: "Widgets",
     icon: "ni ni-archive-2 text-green",
     component: Widgets,
+    layout: "/admin",
+  },
+  {
+    path: "/challenge",
+    name: "Widgets",
+    icon: "ni ni-archive-2 text-green",
+    component: Challenge,
     layout: "/admin",
   },
   {

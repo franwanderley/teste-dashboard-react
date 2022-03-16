@@ -14,7 +14,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-// nodejs library to set properties for components
+
+import React from 'react';
 import PropTypes from "prop-types";
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";

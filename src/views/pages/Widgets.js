@@ -15,15 +15,11 @@
 
 */
 import React from "react";
-// nodejs library that concatenates classes
 import classnames from "classnames";
-// JavaScript library that creates a callendar with events
 import { Calendar } from "@fullcalendar/core";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import moment from "moment";
-// react plugin for creating vector maps
 import { VectorMap } from "react-jvectormap";
-// reactstrap components
 import {
   Badge,
   Button,
@@ -46,7 +42,6 @@ import {
   Row,
   Col,
 } from "reactstrap";
-// core components
 import CardsHeader from "components/Headers/CardsHeader.js";
 
 import { widgetEvents } from "variables/general.js";

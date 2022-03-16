@@ -1,5 +1,4 @@
 /*!
-
 =========================================================
 * Argon Dashboard PRO React - v1.2.1
 =========================================================
@@ -14,7 +13,6 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-// reactstrap components
 import {
   Badge,
   Button,
@@ -37,7 +35,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 // core components
-import SimpleHeader from "components/Headers/SimpleHeader.js";
+import SimpleHeader from 'components/Headers/SimpleHeader.js';
 
 function Tables() {
   return (
@@ -779,7 +777,7 @@ function Tables() {
                       <PaginationLink
                         href="#pablo"
                         onClick={(e) => e.preventDefault()}
-                        tabIndex="-1"
+                        tabIndex={-1}
                       >
                         <i className="fas fa-angle-left" />
                         <span className="sr-only">Previous</span>

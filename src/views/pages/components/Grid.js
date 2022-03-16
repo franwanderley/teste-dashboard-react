@@ -14,7 +14,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-// reactstrap components
+
+import React from 'react';
 import { Card, CardHeader, CardBody, Container, Row, Col } from "reactstrap";
 // core components
 import SimpleHeader from "components/Headers/SimpleHeader.js";

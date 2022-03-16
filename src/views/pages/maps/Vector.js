@@ -14,7 +14,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-// react plugin for creating vector maps
+import React from "react";
 import { VectorMap } from "react-jvectormap";
 
 // reactstrap components

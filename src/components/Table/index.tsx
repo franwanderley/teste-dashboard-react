@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { PaginationItem } from 'reactstrap';
 import { PaginationLinkStyled, PaginationStyled, TableStyled, Title } from './style';
+
 interface TableProps {
    themeColor: string;
    fetchData: (page: number, pageSize: number) => Promise<any>;
@@ -89,15 +90,17 @@ export const TableComponent = ({
          >
             <PaginationItem>
                <PaginationLinkStyled
-                  href={page + 1 <= 0 ? '-1' : '#'}
-                  onClick={() => setPage(old => old -1)}
+                  href="#"
+                  disabled={page <= 1}
+                  onClick={() => setPage(old => old - 1)}
                   previous />
             </PaginationItem>
             {renderPaginationItem()}
             <PaginationItem>
                <PaginationLinkStyled
-                  href={page + 1 >= totalPage ? '-1' : '#'}
-                  onClick={() => setPage(old => old -1)}
+                  href="#"
+                  disabled={page >= totalPage}
+                  onClick={() => setPage(old => old + 1)}
                   next />
             </PaginationItem>
          </PaginationStyled>

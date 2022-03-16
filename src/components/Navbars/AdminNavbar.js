@@ -169,7 +169,7 @@ function AdminNavbar({ theme, sidenavOpen, toggleSidenav }) {
                             </div>
                           </div>
                           <p className="text-sm mb-0">
-                            Let's meet at Starbucks at 11:30. Wdyt?
+                            Let&apos;s meet at Starbucks at 11:30. Wdyt?
                           </p>
                         </div>
                       </Row>
@@ -256,7 +256,7 @@ function AdminNavbar({ theme, sidenavOpen, toggleSidenav }) {
                             </div>
                           </div>
                           <p className="text-sm mb-0">
-                            Let's meet at Starbucks at 11:30. Wdyt?
+                            Let&apos;s meet at Starbucks at 11:30. Wdyt?
                           </p>
                         </div>
                       </Row>

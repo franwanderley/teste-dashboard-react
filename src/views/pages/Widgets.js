@@ -512,7 +512,7 @@ function Widgets() {
                         </div>
                       </div>
                       <h6 className="text-sm mt-1 mb-0">
-                        Let's meet at Starbucks at 11:30. Wdyt?
+                        Let&apos;s meet at Starbucks at 11:30. Wdyt?
                       </h6>
                     </div>
                   </div>

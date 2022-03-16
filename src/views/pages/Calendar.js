@@ -171,7 +171,7 @@ function CalendarView() {
         showCancel
         btnSize=""
       >
-        You won't be able to revert this!
+        You won&apos;t be able to revert this!
       </ReactBSAlert>
     );
   };

@@ -101,7 +101,7 @@ function Index() {
                           Integrated build tools
                         </h4>
                         <p className="description mt-3">
-                          Use Argons's included npm scripts to compile source
+                          Use Argons&apos;s included npm scripts to compile source
                           code, scss and more with just a few simple commands.
                         </p>
                         <div>
@@ -164,7 +164,7 @@ function Index() {
                   <p>
                     The kit comes with three pre-built pages to help you get
                     started faster. You can change the text and images and
-                    you're good to go.
+                    you&apos;re good to go.
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
@@ -425,7 +425,7 @@ function Index() {
                         />
                       </a>
                       <UncontrolledTooltip delay={0} target="tooltip374813716">
-                        Node.js - a JavaScript runtime built on Chrome's V8
+                        Node.js - a JavaScript runtime built on Chrome&apos;s V8
                         JavaScript engine
                       </UncontrolledTooltip>
                     </Col>

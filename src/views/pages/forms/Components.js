@@ -412,6 +412,7 @@ function Components() {
                               handleReactDatetimeChange("startDate", e)
                             }
                             renderDay={(props, currentDate, selectedDate) => {
+                              // eslint-disable-next-line react/prop-types
                               let classes = props.className;
                               classes +=
                                 getClassNameReactDatetimeDays(currentDate);
@@ -439,6 +440,7 @@ function Components() {
                               handleReactDatetimeChange("endDate", e)
                             }
                             renderDay={(props, currentDate, selectedDate) => {
+                              // eslint-disable-next-line react/prop-types
                               let classes = props.className;
                               classes +=
                                 getClassNameReactDatetimeDays(currentDate);

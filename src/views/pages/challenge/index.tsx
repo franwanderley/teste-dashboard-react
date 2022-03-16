@@ -11,14 +11,17 @@ export const Challenge = () => {
       {
          name: 'name',
          sorteable: true,
+         action: () => {},
       },
       {
          name: 'email',
          sorteable: false,
+         action: () => {},
       },
       {
          name: 'cargo',
          sorteable: false,
+         action: () => {},
       }
    ];
    const fetchData = (page = 0, pageSize = 5) => {
@@ -34,6 +37,7 @@ export const Challenge = () => {
                onRowClicked={(row) => {}}
                fetchData={fetchData}
                columns={columns}
+               paginationLimit={5}
             />
          </Container>
       </>

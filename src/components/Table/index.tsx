@@ -3,7 +3,6 @@ import { PaginationItem } from 'reactstrap';
 import { PaginationLinkStyled, PaginationStyled, TableStyled, Title } from './style';
 
 interface TableProps {
-   themeColor: string;
    fetchData: (page: number, pageSize: number) => Promise<any>;
    columns: {
       name: string;
@@ -16,14 +15,13 @@ interface TableProps {
 };
 
 export const TableComponent = ({ 
-   themeColor,
    fetchData,
    columns,
    onRowClicked,
    paginationLimit = 5
 } : TableProps) => {
    const [page, setPage] = useState(1);
-   const [pageSize, setPageSize] = useState(3);
+   const [pageSize, setPageSize] = useState(paginationLimit);
    const [data, setData] = useState([]);
    const [totalPage, setTotalPage] = useState(0);
 

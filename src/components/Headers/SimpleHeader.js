@@ -14,8 +14,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import PropTypes from "prop-types";
 import React from 'react';
+import PropTypes from "prop-types";
 import {
   Breadcrumb,
   BreadcrumbItem,

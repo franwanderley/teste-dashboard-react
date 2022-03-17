@@ -287,10 +287,11 @@ const routes = [
   },
   {
     path: "/challenge",
+    collapse: false,
     name: "Widgets",
     icon: "ni ni-archive-2 text-green",
     component: Challenge,
-    layout: "/admin",
+    layout: "/admin", 
   },
   {
     path: "/charts",
